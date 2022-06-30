@@ -51,7 +51,7 @@ a.active {
   border-bottom: 1px solid #ececec;
 }
 :visited {
-  color: var(--black);
+  color: #757575;
 }
 
 .padding-top-but {
@@ -203,12 +203,8 @@ a.active {
 /* #endregion Hero*/
 
 /* #region Benefits */
-
-.benefits-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  list-style: none;
+.benefit {
+  margin-bottom: 30px;
 }
 
 .icon-anthenna {
@@ -216,14 +212,21 @@ a.active {
   height: 70px;
 }
 
-.benefit-item {
-  width: 270px;
-
+.icon-wrapper {
   display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
+  text-align: center;
+  padding: 25px;
   margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: #f5f4fa;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
 }
 
 .benefit-item:not(:last-child) {
@@ -252,7 +255,7 @@ a.active {
 /* #endregion Benefits */
 
 /* #region Activity */
-.indent-bottom {
+.activity {
   padding-bottom: 94px;
 }
 
@@ -288,7 +291,7 @@ a.active {
 
 /* #region Team */
 
-.team {
+.team-background {
   /* padding: 94px 0 94px 0; */
   background-color: #f5f4fa;
 }
@@ -335,9 +338,71 @@ a.active {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.team-contacts-list {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+}
+.team-contacts-link a {
+  color: #afb1b8;
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.team-contacts-link {
+  display: block;
+
+  padding: 12px;
+  background-color: transparent;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.team-contacts-link:hover,
+.team-contacts-link:focus {
+  cursor: pointer;
+  fill: var(--white);
+  background-color: var(--btn-active);
+  transition: 0.3s;
 }
 
 /* #endregion Team */
+
+/* #region  Clients */
+.clien-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+.icon-wrapper-client {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  width: 170px;
+  border-radius: 4px;
+  border: 4px solid #f5f4fa;
+}
+
+/* .client-link > li {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+} */
+.client-label {
+  width: 50px;
+  height: 50px;
+}
+/* #endregion */
 
 /* #region Filter */
 .filter-btn {
