@@ -72,6 +72,7 @@ a.active {
 
   text-decoration: none;
   font-size: 26px;
+  font-weight: 700;
   font-family: "Raleway", sans-serif;
 
   color: var(--btn-active);
@@ -97,15 +98,9 @@ a.active {
   padding-bottom: 5px;
   font-weight: 500;
 }
-.link a:hover,
-.link a:focus {
+.auth-nav-link a:hover,
+.auth-nav-link a:focus {
   color: var(--btn-active);
-  transition: 0.3s;
-}
-
-.link:hover,
-.link:focus {
-  cursor: pointer;
   fill: var(--btn-active);
   transition: 0.3s;
 }
@@ -194,6 +189,11 @@ a.active {
 
   background-color: var(--btn-active);
   color: var(--white);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  cursor: pointer;
 }
 
 /* #endregion Hero*/
@@ -534,6 +534,7 @@ a.active {
 .logo-footer {
   text-decoration: none;
   font-size: 26px;
+  font-weight: 700;
 
   color: var(--btn-active);
 }
