@@ -33,10 +33,10 @@ p {
 .link {
   text-decoration: none;
   list-style: none;
+  color: var(--text-color);
 
   font-size: 14px;
   line-height: 1.2;
-  font-weight: 400;
 }
 
 /* active links */
@@ -49,9 +49,7 @@ a.active {
 /* #region Header */
 .header {
   border-bottom: 1px solid #ececec;
-}
-:visited {
-  color: #757575;
+  padding: 24px 0;
 }
 
 .padding-top-but {
@@ -60,12 +58,12 @@ a.active {
 
 .container {
   width: 1200px;
-  align-items: center;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .main-nav {
-  padding: 24px 0;
   display: flex;
 }
 
@@ -154,9 +152,7 @@ a.active {
   margin: 0 auto;
   text-align: center;
 
-  /* background-color: #2f303a; */
   color: var(--white);
-  /* background-color: #c4c4c4; */
 }
 
 .overlay {
@@ -184,7 +180,7 @@ a.active {
   font-size: 44px;
   line-height: 1.4;
   width: 696px;
-  margin: 0 auto 1em auto;
+  margin: 0 auto 30px auto;
 }
 
 .hero-btn {
@@ -203,6 +199,11 @@ a.active {
 /* #endregion Hero*/
 
 /* #region Benefits */
+
+.hide-title {
+  display: none;
+}
+
 .benefit {
   margin-bottom: 30px;
 }
@@ -488,8 +489,8 @@ a.active {
   margin-bottom: 0;
 }
 
-.works-title {
-  margin: 0 0 10px 0;
+.work-item-title {
+  margin-bottom: 4px;
 
   font-size: 18px;
   line-height: 2;
@@ -498,7 +499,7 @@ a.active {
   color: #212121;
 }
 
-.works-subtitle {
+.work-item-subtitle {
   font-size: 16px;
   line-height: 1.8;
   color: #757575;
@@ -512,10 +513,13 @@ a.active {
 }
 
 .work-title {
-  padding: 30px;
+  padding: 20px 24px;
   border-radius: 0 0 4px 4px;
   text-align: left;
   background-color: var(--white);
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 /* #endregion */
@@ -545,6 +549,10 @@ a.active {
   flex-direction: column;
 }
 
+.footer-address a {
+  line-height: 1.71;
+}
+
 .footer-contact {
   color: var(--white);
   font-size: 14px;
@@ -571,10 +579,6 @@ a.active {
 
 .footer-address-loc a:hover {
   color: var(--btn-active);
-}
-
-.mail {
-  margin: 9px 0 9px 0;
 }
 
 /* join block */
