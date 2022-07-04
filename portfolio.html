@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <nav class="container main-nav">
-                <a class="header_logo logo" href="./index.html">Web<span>Studio</span></a>
+                <a class="header-logo logo" href="./index.html">Web<span>Studio</span></a>
 
                 <ul class="site-nav list">
                     <li class="nav-link link"><a href="./index.html" class="link">Студия</a> </li>
@@ -27,23 +27,29 @@
                 </ul>
             
                 <ul class="auth-nav list">
-                    <li class="auth-nav-link link" >
-                        <svg class="mail-icon">
-                            <use href="./images/icons.svg#icon-mail"></use>
-                        </svg>
-                        <a class="nav-icon-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="auth-nav-link link" >                        
+                        <a class="nav-icon-mail" href="mailto:info@devstudio.com">
+                            <svg class="mail-icon">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
-                    <li class="auth-nav-link link" >
-                        <svg class="phone-icon">
-                            <use href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-                        <a class="nav-icon-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="auth-nav-link link" >                        
+                        <a class="nav-icon-phone" href="tel:+380961111111">
+                            <svg class="phone-icon">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
         </nav>
     </header>
 
     <main class="main padding-top-but">
+<!-- OUR WORK COLLECTION STYLE -->
+        <section class="works section">
             <div class="conainer">
                 <h1 class=" title hide hide-title">our works list</h1>
                 <ul class="filter-list">
@@ -65,77 +71,75 @@
                 </ul>
             </div>
 
-<!-- OUR WORK COLLECTION STYLE -->
-    <section class="works section">
-        <div class="container">
-            <ul class="works-list">
-                <li class="work-link link link">
-                    <img src="./images/out-works/w1.jpg" alt="web site work">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Техно кряк</h2>
-                        <p class="work-item-subtitle">Веб-сайт</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w2.jpg" alt="design work">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="work-item-subtitle">Дизайн</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w3.jpg" alt="application work Seafood">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Ресторан Seafood</h2>
-                        <p class="work-item-subtitle">Приложение</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w4.jpg" alt="marketing work">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Проект Prime</h2>
-                        <p class="work-item-subtitle">Маркетинг</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w5.jpg" alt="application work Boxes">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Проект Boxes</h2>
-                        <p class="work-item-subtitle">Приложение</p>
-                    </div>
-                </li>            
-                <li class="work-link link">
-                    <img src="./images/out-works/w6.jpg" alt="web site work">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Inspiration has no Borders</h2>
-                        <p class="work-item-subtitle">Веб-сайт</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w7.jpg" alt="design work Limited Edition">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Издание Limited Edition</h2>
-                        <p class="work-item-subtitle">Дизайн</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w8.jpg" alt="Marketing work project LAB">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Проект LAB</h2>
-                        <p class="work-item-subtitle">Маркетинг</p>
-                    </div>
-                </li>
-                <li class="work-link link">
-                    <img src="./images/out-works/w9.jpg" alt="application work Growing Business">
-                    <div class="work-title">
-                        <h2 class="work-item-title">Growing Business</h2>
-                        <p class="work-item-subtitle">Приложение</p>
-                    </div>
-                </li>
-                
-            </ul>
-        </div>
-    </section>
+            <div class="container">
+                <ul class="works-list">
+                    <li class="work-link link link">
+                        <img src="./images/out-works/w1.jpg" alt="web site work">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Техно кряк</h2>
+                            <p class="work-item-subtitle">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w2.jpg" alt="design work">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="work-item-subtitle">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w3.jpg" alt="application work Seafood">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Ресторан Seafood</h2>
+                            <p class="work-item-subtitle">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w4.jpg" alt="marketing work">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Проект Prime</h2>
+                            <p class="work-item-subtitle">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w5.jpg" alt="application work Boxes">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Проект Boxes</h2>
+                            <p class="work-item-subtitle">Приложение</p>
+                        </div>
+                    </li>            
+                    <li class="work-link link">
+                        <img src="./images/out-works/w6.jpg" alt="web site work">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Inspiration has no Borders</h2>
+                            <p class="work-item-subtitle">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w7.jpg" alt="design work Limited Edition">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Издание Limited Edition</h2>
+                            <p class="work-item-subtitle">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w8.jpg" alt="Marketing work project LAB">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Проект LAB</h2>
+                            <p class="work-item-subtitle">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="work-link link">
+                        <img src="./images/out-works/w9.jpg" alt="application work Growing Business">
+                        <div class="work-title">
+                            <h2 class="work-item-title">Growing Business</h2>
+                            <p class="work-item-subtitle">Приложение</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
     </main>
 
     <!-- section footer -->
