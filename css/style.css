@@ -77,6 +77,7 @@ a.active {
   font-family: "Raleway", sans-serif;
 
   color: var(--btn-active);
+  line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
@@ -206,7 +207,17 @@ a.active {
 /* #region Benefits */
 
 .hide-title {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefit {
@@ -509,7 +520,7 @@ a.active {
 
 .work-item-subtitle {
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.9;
   color: #757575;
   letter-spacing: 0.03em;
 }
@@ -547,6 +558,9 @@ a.active {
 
   color: var(--btn-active);
   letter-spacing: 0.03em;
+  line-height: 1.5;
+
+  font-family: "Raleway", sans-serif;
 }
 
 .logo-footer > span {
