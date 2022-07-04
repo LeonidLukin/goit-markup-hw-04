@@ -326,7 +326,6 @@ a.active {
 }
 
 .team-card > img {
-  width: 270px;
   display: block;
 }
 
@@ -520,7 +519,6 @@ a.active {
 }
 
 .work-link > img {
-  /* width: 370px; */
   width: 100%;
 
   display: block;
