@@ -11,7 +11,6 @@
 
 body {
   font-family: "Roboto", "sans-serif";
-
   color: var(--text-color);
 }
 
@@ -104,6 +103,7 @@ a.active {
 
 .auth-nav-link a:hover,
 .auth-nav-link a:focus {
+  cursor: pointer;
   color: var(--btn-active);
   fill: var(--btn-active);
   transition: 0.3s;
@@ -149,8 +149,8 @@ a.active {
 /* #region Hero*/
 .hero {
   padding: 200px 0 200px 0;
-  margin: 0 auto;
   text-align: center;
+  /* margin: 0 auto; */
 
   color: var(--white);
 }
@@ -218,10 +218,6 @@ a.active {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.benefit {
-  margin-bottom: 30px;
 }
 
 .icon-anthenna {
@@ -452,6 +448,7 @@ a.active {
 
 .filter-btn:hover,
 .filter-btn:focus {
+  cursor: pointer;
   background-color: var(--btn-active);
   transition: 0.5s;
 
@@ -477,10 +474,9 @@ a.active {
   margin-right: 8px;
 }
 
-.filter-btn:hover,
+/* .filter-btn:hover,
 .filter-btn:focus {
-  cursor: pointer;
-}
+} */
 
 /* #endregion Portfolio */
 
@@ -495,8 +491,6 @@ a.active {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border: 1px solid #eeeeee; */
-  border-bottom: 1px solid #eeeeee;
 }
 
 .work-link:nth-child(3n) {
@@ -556,10 +550,10 @@ a.active {
   font-size: 26px;
   font-weight: 700;
 
-  color: var(--btn-active);
   letter-spacing: 0.03em;
   line-height: 1.5;
 
+  color: var(--btn-active);
   font-family: "Raleway", sans-serif;
 }
 
