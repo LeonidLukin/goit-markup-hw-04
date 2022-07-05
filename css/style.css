@@ -120,14 +120,12 @@ a.active {
 }
 
 .mail-icon {
-  width: 16px;
-  height: 12px;
+  /* width: 16px;
+  height: 12px; */
   margin-right: 10px;
 }
 
 .phone-icon {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
 }
 
@@ -292,11 +290,6 @@ a.active {
   padding: 0;
 }
 
-.activity-item {
-  /* margin: 0 auto; */
-  width: 370px;
-}
-
 .activity_item:not(last-child) {
   padding-right: 30px;
 }
@@ -340,7 +333,7 @@ a.active {
   background-color: var(--white);
 }
 
-.team_member_name {
+.team-member-name {
   margin: 0 0 10px 0;
 
   font-weight: 500;
